@@ -1,0 +1,23 @@
+/* Barra de navegação HORIZONTAL*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 720px;
+    background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+     /*  display: inline;  tambem deixa alista na horizontal */
+    float: left;
+}
+
+ul a{
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: white;
+    background: url(../imagens/divisor.png) repeat-y;
+}
